@@ -47,8 +47,8 @@ body {
   font-style: normal;
 }
 .box {
-  margin:auto;
-  padding: 20px;
+  margin: 40px auto;          
+  padding: 20px 30px;        
   box-sizing: border-box;
   background: rgb(20, 0, 0);
   color: white;
@@ -63,4 +63,48 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   user-select: none;
+  max-width: 700px;          
+  width: 90%;                 
+}
+p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+.chars {
+    display: block; 
+    margin-top: 0px;
+    font-family: 'Quintessential', cursive;
+    color: gold;
+    text-align: left;
+    font-size: 45px;
+    text-decoration: none;
+    text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+.box2 {
+margin: 40px 0 40px 40px;        
+padding: 20px 30px;        
+box-sizing: border-box;
+background: rgb(20, 0, 0);
+color: white;
+text-align: left;
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+border: 2px solid gold;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+line-height: 0.8;
+cursor: pointer;
+transition: background-color 0.3s ease;
+user-select: none;
+max-width: 700px;          
+width: 90%;                 
 }
